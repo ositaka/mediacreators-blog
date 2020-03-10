@@ -1,6 +1,11 @@
 /* Scaffolding
   =============== */
 
+* {
+  transition: all 150ms ease!important;
+}
+
+
 // HTML base
 html {
   -webkit-font-smoothing: antialiased;

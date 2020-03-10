@@ -1,7 +1,5 @@
-import React, { Component } from 'react'
-import tania from '../../content/images/profile.jpg'
-import patreon from '../../content/thumbnails/patreon.png'
-import kofi from '../../content/thumbnails/kofi.png'
+import React, { Component } from "react";
+import tania from "../../content/images/css.png";
 
 export default class UserInfo extends Component {
   render() {
@@ -14,16 +12,16 @@ export default class UserInfo extends Component {
             </div>
             <div>
               <p>
-                I’m Tania Rascia. I document everything I learn and help thousands of people start
-                coding careers.{' '}
+                I’m Tania Rascia. I document everything I learn and help
+                thousands of people start coding careers.{" "}
                 <strong>
-                  My site has no ads, sponsors, or bullshit. If you enjoy my content, please
-                  consider supporting what I do.
+                  My site has no ads, sponsors, or bullshit. If you enjoy my
+                  content, please consider supporting what I do.
                 </strong>
               </p>
 
               <div className="flex">
-                <a
+                {/* <a
                   href="https://ko-fi.com/taniarascia"
                   className="donate-button"
                   target="_blank"
@@ -39,12 +37,12 @@ export default class UserInfo extends Component {
                   rel="noopener noreferrer"
                 >
                   <img src={patreon} height="50" width="50" alt="Patreon" /> Become a Patron
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
         </div>
       </aside>
-    )
+    );
   }
 }
