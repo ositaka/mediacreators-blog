@@ -1,0 +1,17 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: /assets
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/posts
+    create: true
+    fields:
+      - { name: template, label: template, widget: hidden, default: post }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
