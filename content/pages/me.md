@@ -1,11 +1,11 @@
 ---
-title: About me
-slug: me
+title: About us
+slug: about-us
 template: page
 ---
 
-I’m Tania Rascia, a full stack software developer, technical writer, and former chef.
+![Portraif ot the Media Creators Studio](../images/the-media-creators.jpg)
 
-I started this website as a place to document everything I learned while going through a [career change](/how-i-made-a-career-change-into-web-development/). I [learn in public](/learn) and write about everything I know.
+## We are experts in design, web development and online advertising. We create unique brands and develop high-quality websites.
 
-I aim to create a beautiful corner of the web free of ads, sponsored posts, newsletter pop-ups, affiliate links, and the rest of the annoying noise we're so accustomed to seeing on the internet these days.
+We believe that we can bring a company vision to life by actively partnering with our clients. We follow a workflow during which we value the client’s ideas and desires, and make them a visual reality. At the start of the project, we make up a strategic plan with clearly defined goals and objectives. During the following design phase, we use efficient tools for interaction with our client.

@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Helmet from 'react-helmet'
-import GitHubButton from 'react-github-btn'
 import { graphql, Link } from 'gatsby'
 import Layout from '../layout'
 import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
-import tania from '../../content/images/css.png'
+import logo from '../images/logo.png'
 
 export default class Index extends Component {
 	render() {
@@ -21,41 +20,23 @@ export default class Index extends Component {
 				<div className="container">
 					<div className="lead">
 						<div className="elevator">
-							<h1>{`Hey, I'm Tania`}</h1>
+							<h1>{`Hello!`}</h1>
 							<p>
-								I'm a full stack software developer creating{' '}
+								Welcome to the <Link to="/blog">blog</Link> of the{' '}
 								<a
-									href="https://github.com/taniarascia"
+									href="https://mediacreators.studio"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									open source
-								</a>{' '}
-								projects and <Link to="/blog">writing</Link> about modern
-								JavaScript, Node.js, and development.
-							</p>
-							<div className="social-buttons">
-								<GitHubButton
-									href="https://github.com/taniarascia"
-									data-size="large"
-									data-show-count="true"
-								>
-									taniarascia
-								</GitHubButton>
-							</div>
-						</div>
-						<div className="newsletter-section">
-							<img src={tania} className="newsletter-avatar" alt="Tania" />
-							<div>
-								<h3>Email Newsletter</h3>
-								<p>
-									I write tutorials. Get an update when something new comes out
-									by signing up below!
-								</p>
-								<a className="button" href="https://taniarascia.substack.com">
-									Subscribe
+									mediacreators.studio
 								</a>
-							</div>
+								, a creative & digital design studio. Here we share all our
+								challenges, inspiration and tools, we use on our creative
+								professional work.
+							</p>
+						</div>
+						<div className="elevator-logo">
+							<img src={logo} className="newsletter-avatar" alt="Tania" />
 						</div>
 					</div>
 				</div>
